@@ -1,5 +1,7 @@
 ## 𝘕𝘰𝘯-𝘰𝘧𝘧𝘪𝘤𝘪𝘢𝘭 𝘎𝘐𝘈 𝘗𝘳𝘢𝘤𝘵𝘪𝘤𝘦 𝘛𝘦𝘴𝘵𝘴 📄
 
+A forked repositroy for macOS.
+
 ### 𝘗𝘺𝘵𝘩𝘰𝘯 𝘢𝘱𝘱 𝘸𝘩𝘪𝘤𝘩 𝘳𝘦𝘱𝘳𝘰𝘥𝘶𝘤𝘦𝘴 𝘵𝘩𝘦 𝘛𝘩𝘰𝘮𝘢𝘴 𝘎𝘐𝘈 𝘵𝘦𝘴𝘵𝘴 𝘧𝘰𝘳 𝘱𝘳𝘢𝘤𝘵𝘪𝘤𝘦 𝘱𝘶𝘳𝘱𝘰𝘴𝘦𝘴.<br>
 𝘛𝘰 𝘬𝘯𝘰𝘸 𝘮𝘰𝘳𝘦 𝘢𝘣𝘰𝘶𝘵 𝘵𝘩𝘦 **𝘛𝘩𝘰𝘮𝘢𝘴 𝘎𝘐𝘈 𝘵𝘦𝘴𝘵𝘴**, 𝘤𝘩𝘦𝘤𝘬 𝘵𝘩𝘦 𝘰𝘧𝘧𝘪𝘤𝘪𝘢𝘭 [𝘱𝘢𝘨𝘦](https://www.thomas.co/sites/default/files/2019-08/GIA-Example-Booklet-2018.pdf).<br>
 
@@ -15,13 +17,19 @@
 
 ### 𝘐𝘯 𝘰𝘳𝘥𝘦𝘳 𝘵𝘰 𝘳𝘶𝘯 𝘵𝘩𝘦 𝘢𝘱𝘱, 𝘥𝘰𝘸𝘯𝘭𝘰𝘢𝘥 𝘵𝘩𝘦 𝘱𝘳𝘰𝘫𝘦𝘤𝘵 𝘢𝘯𝘥 𝘳𝘶𝘯 **𝘮𝘢𝘪𝘯.𝘱𝘺** 𝘰𝘳 **𝘮𝘢𝘪𝘯.𝘦𝘹𝘦**<br>
 ### 𝘙𝘦𝘲𝘶𝘪𝘳𝘦𝘮𝘦𝘯𝘵𝘴:
-- 𝘍𝘗𝘋𝘍2 [𝘊𝘩𝘦𝘤𝘬 𝘵𝘩𝘪𝘴 𝘭𝘪𝘯𝘬](https://pypi.org/project/fpdf2/)
-- 𝘕𝘶𝘮𝘱𝘺 [𝘊𝘩𝘦𝘤𝘬 𝘵𝘩𝘪𝘴 𝘭𝘪𝘯𝘬](https://pypi.org/project/numpy/)
-- 𝘗𝘪𝘭𝘭𝘰𝘸 [𝘊𝘩𝘦𝘤𝘬 𝘵𝘩𝘪𝘴 𝘭𝘪𝘯𝘬](https://pypi.org/project/Pillow/)
+- Python TK
+   - macOS, homebrew : `brew install python-tk`
+   - MSYS2, MinGW-W64 : `pacman -S python-tk`
+- 𝘍𝘗𝘋𝘍2
+   - `pip install fpdf`
+- 𝘕𝘶𝘮𝘱𝘺
+   - `pip install hypothesis wrapt numphy`
+- 𝘗𝘪𝘭𝘭𝘰𝘸
+   - `pip install pillow`
 
 <details>
   <summary>
-    <strong>⚙ 𝘋𝘦𝘮𝘰 </strong>
+    <strong>⚙ 𝘋𝘦𝘮onstration on macOS </strong>
   </summary>
     </br> 
     <p align="center">𝘔𝘢𝘪𝘯 𝘔𝘦𝘯𝘶</p>

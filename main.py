@@ -12,14 +12,19 @@ import PIL
 import random
 
 # ---------------------------- COLORS ------------------------------- #
-CHAMPAGNE_PINK = "#F2DFD7"
-GHOST_WHITE = "#FEF9FF"
-THISTLE = "#D4C1EC"
-MAXIMUM_BLUE_PURPLE = "#9F9FED"
-MEDIUM_SLATE_BLUE = "#736CED"
+#CHAMPAGNE_PINK = "#F2DFD7"
+CHAMPAGNE_PINK = "#303030"
+#GHOST_WHITE = "#FEF9FF"
+GHOST_WHITE = "#000000"
+#THISTLE = "#D4C1EC"
+THISTLE = "#304050"
+#MAXIMUM_BLUE_PURPLE = "#9F9FED"
+MAXIMUM_BLUE_PURPLE = "#EEEEEE"
+#MEDIUM_SLATE_BLUE = "#736CED"
+MEDIUM_SLATE_BLUE = "#909090"
 
 # ---------------------------- CONSTANTS ------------------------------- #
-FONT_NAME = "Georgia"
+FONT_NAME = "Helvetica"
 TIMER = None
 timer_label = None
 GAME_WINDOW = None
