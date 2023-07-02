@@ -513,8 +513,7 @@ def spatial_visualisation_game():
     timer_label.grid(row=0, column=5)
 
     show_images(pairs)
-    countdown_timer(3)
-    #countdown_timer(3 * 60)
+    countdown_timer(3 * 60)
 
 
 # ---------------------------- MAIN MENU ------------------------------- #
