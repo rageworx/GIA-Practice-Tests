@@ -1,7 +1,8 @@
+import os
 from random import sample, randint, shuffle
 from datetime import datetime
 from fpdf import FPDF
-
+from PIL.Image import Image
 
 def print_report_to_pdf(pdf, report):
     """ Function which writes the data from report in pdf file."""
@@ -31,8 +32,16 @@ def print_report_to_pdf(pdf, report):
             if column == "Pairs":
                 x_cord = pdf.get_x() + 10
                 y_cord = pdf.get_y() + 1
-                pdf.image(line[column], w=10, h=10, x=x_cord, y=y_cord)
+                # it dosen't work ----
+                # imgx = line[column]
+                # pdf.image(imgx, w=10, h=10, x=x_cord, y=y_cord)
+                # --------------------
+                # need to write an image name ... and into pdf.
+                tmpname = 'tmp'+str(x_cord)+'_'+str(y_cord)+'.png'
+                line[column].save( tmpname );
+                pdf.image( tmpname, w=10, h=10, x=x_cord, y=y_cord)
                 pdf.cell(table_cell_width, table_cell_height, " ", align='C', border=1)
+                os.remove( tmpname )
             else:
                 value = str(line[column])
                 pdf.cell(table_cell_width, table_cell_height, value, align='C', border=1)
