@@ -36,11 +36,12 @@ def print_report_to_pdf(pdf, report):
                 # imgx = line[column]
                 # pdf.image(imgx, w=10, h=10, x=x_cord, y=y_cord)
                 # --------------------
-                # need to write an image name ... and into pdf.
-                tmpname = 'tmp'+str(x_cord)+'_'+str(y_cord)+'.png'
+                # need to write an image png file name ... and into pdf.
+                tmpname = 'reports/tmp'+str(x_cord)+'_'+str(y_cord)+'.png'
                 line[column].save( tmpname );
                 pdf.image( tmpname, w=10, h=10, x=x_cord, y=y_cord)
                 pdf.cell(table_cell_width, table_cell_height, " ", align='C', border=1)
+                # and need to remove png file
                 os.remove( tmpname )
             else:
                 value = str(line[column])
