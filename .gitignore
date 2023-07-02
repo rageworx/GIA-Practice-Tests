@@ -1,2 +1,6 @@
 __pycache__/
 reports/*
+.DS_Store
+build/*
+dist/*
+main.spec

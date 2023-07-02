@@ -34,16 +34,16 @@ A forked repositroy for macOS.
     </br> 
     <p align="center">𝘔𝘢𝘪𝘯 𝘔𝘦𝘯𝘶</p>
     <p align="center">
-  <a href=""> <img src="https://github.com/DanielM24/GIA-Practice-Tests/blob/main/demo/menu.png" alt="gia-app-main-menu" width="550" height="550"/> </a>
+  <a href=""> <img src="https://github.com/rageworx/GIA-Practice-Tests/blob/main/demo/menu.png?raw=true" alt="gia-app-main-menu" width="550" height="550"/> </a>
     </p>
     </br> 
     <p align="center">𝘛𝘦𝘴𝘵𝘴</p>
     <p align="center">
-  <a href=""> <img src="https://github.com/DanielM24/GIA-Practice-Tests/blob/main/demo/test.png" alt="gia-tests" width="650" height="550"/> </a>
+  <a href=""> <img src="https://github.com/rageworx/GIA-Practice-Tests/blob/main/demo/test.png" alt="gia-tests" width="650" height="550"/> </a>
     </p>
     </br> 
     <p align="center">𝘙𝘦𝘱𝘰𝘳𝘵𝘴</p>
     <p align="center">
-  <a href=""> <img src="https://github.com/DanielM24/GIA-Practice-Tests/blob/main/demo/reports.png" alt="gia-reports" width="550" height="600"/> </a>
+  <a href=""> <img src="https://github.com/rageworx/GIA-Practice-Tests/blob/main/demo/reports.png" alt="gia-reports" width="550" height="600"/> </a>
     </p>
 </details>
