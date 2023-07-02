@@ -1,6 +1,9 @@
 __pycache__/
 reports/*
-.DS_Store
 build/*
 dist/*
+.buildozer/*
 main.spec
+DejavuSansMono.ttf
+.DS_Store
+*.spec

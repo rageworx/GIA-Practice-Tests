@@ -22,6 +22,7 @@ THISTLE = "#304050"
 MAXIMUM_BLUE_PURPLE = "#EEEEEE"
 #MEDIUM_SLATE_BLUE = "#736CED"
 MEDIUM_SLATE_BLUE = "#909090"
+RENDER_FONT_SHAPE = "DejavuSansMono.ttf"
 
 # ---------------------------- CONSTANTS ------------------------------- #
 FONT_NAME = "Helvetica"
@@ -409,7 +410,7 @@ def choose_character():
 def draw_image(side, angle):
     """Generates a PIL Image of a drawn R with a given side and angle"""
     global character
-    letter_font = ImageFont.truetype('verdana.ttf', 80)
+    letter_font = ImageFont.truetype(RENDER_FONT_SHAPE, 80)
     # Create a new PIL image
     image = Image.new(mode="RGB", size=(100, 100), color="white")
     # Draw a black R on the image
