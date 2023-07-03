@@ -29,7 +29,7 @@ A forked repositroy for MinGW-W64
     </br> 
     <p align="center">𝘔𝘢𝘪𝘯 𝘔𝘦𝘯𝘶</p>
     <p align="center">
-  <a href=""> <img src="https://github.com/rageworx/GIA-Practice-Tests/blob/main/demo/menu.png?raw=true" alt="gia-app-main-menu" width="550" height="550"/> </a>
+  <a href=""> <img src="https://github.com/rageworx/GIA-Practice-Tests/blob/mingw-w64/demo/menu.png" alt="gia-app-main-menu" width="550" height="550"/> </a>
     </p>
     </br> 
     <p align="center">𝘛𝘦𝘴𝘵𝘴</p>
