@@ -18,8 +18,7 @@ A forked repositroy for macOS.
 ### 𝘐𝘯 𝘰𝘳𝘥𝘦𝘳 𝘵𝘰 𝘳𝘶𝘯 𝘵𝘩𝘦 𝘢𝘱𝘱, 𝘥𝘰𝘸𝘯𝘭𝘰𝘢𝘥 𝘵𝘩𝘦 𝘱𝘳𝘰𝘫𝘦𝘤𝘵 𝘢𝘯𝘥 𝘳𝘶𝘯 **𝘮𝘢𝘪𝘯.𝘱𝘺** 𝘰𝘳 **𝘮𝘢𝘪𝘯.𝘦𝘹𝘦**<br>
 ### 𝘙𝘦𝘲𝘶𝘪𝘳𝘦𝘮𝘦𝘯𝘵𝘴:
 - Python TK
-   - macOS, homebrew : `brew install python-tk`
-   - MSYS2, MinGW-W64 : `pacman -S python-tk`
+   - `brew install python-tk`
 - 𝘍𝘗𝘋𝘍2
    - `pip install fpdf`
 - 𝘕𝘶𝘮𝘱𝘺
