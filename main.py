@@ -26,6 +26,7 @@ RENDER_FONT_SHAPE = "resources/DejavuSansMono.ttf"
 
 # ---------------------------- CONSTANTS ------------------------------- #
 FONT_NAME = "Helvetica"
+PSFONT_NAME = "Georgia"
 TIMER = None
 timer_label = None
 GAME_WINDOW = None
@@ -226,7 +227,7 @@ def perceptual_speed_game():
     GAME_WINDOW.wm_iconphoto(True, icon)
 
     letters_label = Label(GAME_WINDOW, text="", bg=GHOST_WHITE)
-    letters_label.config(fg=MEDIUM_SLATE_BLUE, font=(FONT_NAME, 40, "bold"), pady=20, padx=100)
+    letters_label.config(fg=MEDIUM_SLATE_BLUE, font=(PSFONT_NAME, 40, "bold"), pady=20, padx=100)
     letters_label.grid(row=1, column=0, columnspan=5)
 
     option_0 = Button(GAME_WINDOW, text="0", highlightthickness=0)
